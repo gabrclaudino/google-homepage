@@ -1,0 +1,94 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    float: right;
+    align-items: center;
+}
+
+
+nav li {
+    padding: 10px;
+    font-size: 14px;;
+}
+
+nav li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+nav li i:hover {
+    background-color: lightslategray;
+    background-size: 4em;
+    opacity: 0.7;
+    border-radius: 50%;
+}
+
+
+
+
+#google-logo {
+    display: block;
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 20px;
+}
+
+#search {
+    display: flex;
+    height: 30px;
+    width: 587px;
+    border-radius: 24px;
+    margin: 0 auto;
+    border: 1px solid #dfe1e5;
+    box-shadow: 1px 1px 0px lightgray;
+}
+
+#buttons {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.submit-google {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border-style: none;
+    min-width: 54px;
+}
+
+.submit-google:hover {
+    box-shadow: 1px 1px 1px darkgrey;
+    cursor: pointer;
+}
+
+
+
+footer ul {
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(240, 240, 240);
+    color: rgb(119, 116, 116);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+footer li {
+    padding: 5px 15px;
+    float: left;
+}
+
+footer li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
